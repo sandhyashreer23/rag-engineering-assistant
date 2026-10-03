@@ -1,25 +1,42 @@
-# RAG-Based Engineering Assistant*
-A Retrieval-Augmented Generation *RAG) application built using Pytho*, Streamlit, FAISS, LangChain, and*Google Gemini.
+ RAG-Based Engineering Assistant
 
-## Features
+Overview
 
-- Upl*ad engineering PDFs
-- Extract and *rocess document text
-- Generate em*eddings
-- Store vectors in FAISS
--*Semantic search
-- AI-powered quest*on answering
+This project is a Retrieval-Augmented Generation (RAG) application that allows users to upload engineering documents and ask questions in natural language.
 
-## Tech Stack
+The application extracts information from PDF and DOCX files, creates a searchable knowledge base using vector embeddings, and generates answers using Google's Gemini AI model.
 
-- Pyt*on
+ Features
+
+- Upload PDF and DOCX documents
+- Automatic document processing
+- Document summarization
+- Document classification
+- Vector database creation using FAISS
+- Intelligent question answering
+- Gemini AI integration
+- Simple Streamlit user interface
+
+ Technologies Used
+
+- Python
 - Streamlit
 - LangChain
-- FAISS*- Google Gemini
-- PyPDF
+- Google Gemini API
+- FAISS
+- Hugging Face Embeddings
+- PyPDF2
+- Python-docx
 
-## Run Lo*ally
+ Project Structure
 
-pip install -r requirements.*xt
-
-streamlit run app.py
+```text
+rag-eng/
+├── app.py
+├── rag_pipeline.py
+├── document_reader.py
+├── summarizer.py
+├── classifier.py
+├── requirements.txt
+├── .env
+└── faiss_index/
