@@ -40,3 +40,18 @@ rag-eng/
 ├── requirements.txt
 ├── .env
 └── faiss_index/
+
+
+# RAG-Based Engineering Document Assistant
+
+## Home Page
+
+screenshot/home.png
+
+## Document Analysis
+
+screenshot/summary.mp4
+
+## Chat with Document
+
+screenshot/chat.png
