@@ -30,28 +30,30 @@ The application extracts information from PDF and DOCX files, creates a searchab
 
  Project Structure
 
-```text
 rag-eng/
+│
 ├── app.py
 ├── rag_pipeline.py
 ├── document_reader.py
 ├── summarizer.py
 ├── classifier.py
 ├── requirements.txt
-├── .env
-└── faiss_index/
+├── README.md
+├── .gitignore
+├── screenshots/
+└── .env.example
 
 
 # RAG-Based Engineering Document Assistant
 
 ## Home Page
 
-screenshot/home.png
+screenshots/home.png
 
 ## Document Analysis
 
-screenshot/summary.mp4
+screenshots/summary.mp4
 
 ## Chat with Document
 
-screenshot/chat.png
+screenshots/chat.png
